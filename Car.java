@@ -24,6 +24,6 @@ class Car {
         return maxSpeed;
     }
     public String getModel() {
-        return model;
+            return model;
     }
 }
