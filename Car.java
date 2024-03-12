@@ -26,4 +26,9 @@ class Car {
     public String getModel() {
         return model;
     }
+
+    @Override
+    public String toString(){
+        return "Brand: " + brand + " Model: " + model + " Max Speed: " + maxSpeed + " Color: " + color;
+    }
 }
