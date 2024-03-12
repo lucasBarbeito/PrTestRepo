@@ -3,10 +3,10 @@ class Car {
 
     private String brand;
     private String model;
-    private double maxSpeed;
+    private int maxSpeed;
     private String color;
 
-    public Car (String brand, String model, double maxSpeed, String color){
+    public Car (String brand, String model, int maxSpeed, String color){
         this.brand = brand;
         this.color = color;
         this.maxSpeed = maxSpeed;
@@ -20,7 +20,7 @@ class Car {
     public String getColor() {
         return color;
     }
-    public double getMaxSpeed() {
+    public int getMaxSpeed() {
         return maxSpeed;
     }
     public String getModel() {
