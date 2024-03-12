@@ -1,6 +1,5 @@
 class Car {
 
-
     private String brand;
     private String model;
     private double maxSpeed;
