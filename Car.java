@@ -15,7 +15,7 @@ class Car {
 
 
     public String getBrand() {
-        return brand;
+        return brands;
     }
     public String getColor() {
         return color;
