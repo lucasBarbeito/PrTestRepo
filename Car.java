@@ -9,7 +9,7 @@ class Car {
     public Car (String brand, String model, double maxSpeed, String color){
         this.brand = brand;
         this.color = color;
-        this.maxSpeed = maxSpeed;
+        this.maxSpeed = maxSpeed + 1;
         this.model = model;
     }
 
