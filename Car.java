@@ -7,21 +7,21 @@ class Car {
     private String color;
 
     public Car (String brand, String model, double maxSpeed, String color){
-        this.brand = brand;
-        this.color = color;
+            this.brand = brand;
+            this.color = color;
         this.maxSpeed = maxSpeed;
         this.model = model;
     }
 
 
     public String getBrand() {
-        return brand;
+            return brand;
     }
     public String getColor() {
         return color;
     }
     public double getMaxSpeed() {
-        return maxSpeed;
+            return maxSpeed;
     }
     public String getModel() {
         return model;
