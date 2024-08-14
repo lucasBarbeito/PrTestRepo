@@ -21,7 +21,7 @@ class Car {
         return color;
     }
     public double getMaxSpeed() {
-            return maxSpeed;
+        return maxSpeed;
     }
     public String getModel() {
         return model;
