@@ -15,15 +15,15 @@ class Car {
 
 
     public String getBrand() {
-            return brand;
+           	 return brand;
     }
     public String getColor() {
-        return color;
+       	 return color;
     }
     public double getMaxSpeed() {
-            return maxSpeed;
+           	 return maxSpeed;
     }
     public String getModel() {
-        return model;
+        	return model;
     }
 }
